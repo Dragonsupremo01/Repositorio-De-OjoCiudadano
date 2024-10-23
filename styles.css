@@ -1,0 +1,117 @@
+.topheader {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: 94px;
+    padding: 0 100px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.173);
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1260px;
+    font-family: "Jaldi", sans-serif;
+    font-size: 18px;
+}
+
+.menu-horizontal li a {
+    display: block;
+    border-radius: 10px;
+    padding: 8px 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-horizontal li a:hover {
+    color: #0033a0;
+}
+
+.menu-vertical {
+    padding: 0;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #cacaca;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+    border-radius: 10px;
+}
+
+.menu-vertical li a:hover {
+    color: white;
+    background-color: #02bac6;
+}
+
+/*Section-video*/
+.principal-muni-section {
+    padding: 100px;
+}
+
+.content-muni-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.text-video {
+    width: 45%;
+}
+.text-video h2 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: "Jaldi", sans-serif;
+    font-size: 28px;
+    text-align: center;
+    line-height: 30px;
+}
+.video-conteiner {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #000000;
+    border-radius: 20px;
+}
+.video-conteiner iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.adn-info {
+    width: 50%;
+}
+.adn-info h3 {
+    color: #02bac6;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+.adn-info p {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #333;
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+}
