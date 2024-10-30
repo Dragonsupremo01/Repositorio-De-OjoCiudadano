@@ -17,67 +17,149 @@
             href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
             rel="stylesheet"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jaldi:wght@400;700&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<nav class="topheader">
-    <a href="" class="logo">
-        <img
-                height="61.69"
-                width="80"
-                src="img/LogotipoMunicipalidadDeLince.jpg"
-                alt=""
-        />
-    </a>
-    <ul class="menu-horizontal">
-        <li>
-            <a href=""> Distrito ▼</a>
-            <ul class="menu-vertical">
-                <li><a href=""> Historia del distrito </a></li>
-                <li><a href=""> Planos y Guias </a></li>
-                <li><a href=""> Plano de Sectores </a></li>
-                <li><a href=""> Ciudades Hermanas </a></li>
-                <li><a href=""> Iglesias y Parroquias </a></li>
-                <li><a href=""> Lugares para visitar </a></li>
+    <!--______________________________________ENCABEZADO______________________________________-->
+    <nav class="topheader">
+        <div class="encabezado">
+            <a><img height="57px" width="200px" src="/LogotipoOjoCiudadano/LogotipoBlanco.png" alt=""></a>
+            <ul class="menu-horizontal">
+                <li><a>Conócenos ▼</a>
+                    <ul class="menu-vertical-conocenos">
+                        <li><a>Sobre nosotros</a></li>
+                        <li><a>¿Que es OjoCiudadano?</a></li>
+                    </ul>
+                </li>
+                <li><a>Noticias</a></li>
+                <li><a>Ayuda</a></li>
             </ul>
-        </li>
-        <li><a href=""> Municipalidad ▼</a></li>
-        <li><a href=""> Tramites ▼</a></li>
-        <li><a href=""> Tributos ▼</a></li>
-        <li><a href=""> Obras ▼</a></li>
-        <li><a href=""> Seguridad Ciudadana ▼</a></li>
-    </ul>
-</nav>
-<section class="principal-muni-section">
-    <div class="content-muni-section">
-        <div class="text-video">
-            <h2>
-                Conoce los beneficios que puedes conseguir al ser puntual con tus
-                pagos y ser un vecino linceño VIP
-            </h2>
-            <div class="video-conteiner">
-                <iframe
-                        src="https://www.youtube.com/embed/CRby5y6vq-o"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                >
-                </iframe>
+            <div class="Btn-IniciarSesion">
+                <button class="Btn-IconoMensaje">
+                    <span>Iniciar Sesión</span>
+                    <i class="far fa-user"></i>
+                </button>
+                <ul class="menu-vertical-iniciarsesion">
+                    <li><a>Ver perfil</a></li>
+                    <li><a>Cerrar sesion</a></li>
+                </ul>
             </div>
         </div>
-        <div class="adn-info">
-            <h3>
-                Recompensas Exclusivas por Tu Puntualidad: Ahorra en Arbitrios y
-                Disfruta Descuentos Especiales
-            </h3>
-            <p>
-                TEXTO TODO RANDOM XD
-            </p>
-            <p>
-                PRUEBA3
-            </p>
+    </nav>
+
+    <!--______________________________________SECCIONES______________________________________-->
+    <seccion class="PrimeraSeccion">
+        <div class="presentacion">
+            <h1>¡Bienvenido a OjoCiudadano!</h1>
+            <p>Esta es una plataforma digital diseñada para facilitar el acceso a la información referente sobre los proyectos que se están realizando en el Perú, como por ejemplo conocer el avance, presupuesto y cronograma.</p>
+            <div class="buscador">
+                <input type="text" placeholder="¿Qué buscaremos hoy?">
+                <botton class="Btn-Lupa">
+                    <i class="fas fa-search"></i>
+                </botton>
+            </div>
         </div>
-    </div>
-</section>
+    </seccion>
+
+    <section class="SegundaSeccion">
+        <div class="info-contenedor">
+            <h1>Estado peruano</h1>
+            <p>El Estado peruano es responsable de la planificación, ejecución y supervisión de obras públicas para mejorar la infraestructura del país. Su gestión busca garantizar el desarrollo económico y social, aunque enfrenta desafíos en transparencia y eficiencia en la ejecución de proyectos. La participación ciudadana es clave para asegurar un adecuado seguimiento de estas iniciativas.</p>
+        </div>
+        <div class="info-contenedor2">
+            <h1>Gobiernos regionales</h1>
+            <p>Se encargan de administrar los departamentos del Perú.  Entre sus funciones podemos encontrar que son los encargados de permitir a las municipalidades ejecutar proyectos de infraestructura y desarrollo local.</p>
+            <div class="Btn-obras"><input type="button" class="btn-verobras" value="Ver obras"></div>
+        </div>
+    </section>
+
+    <seccion class="TerceraSeccion">
+        <div class="mensaje">
+            <p>¡Se parte del cambio y únete a esta hermosa familia!</p>
+        </div>
+    </seccion>
+
+    <!--______________________________________FORMULARIO______________________________________-->
+    <section class="Formulario-OjoCiudadano">
+        <div class="Formulario">
+            <form name="Formulario" method="post" action="">
+                <fieldset id="form">
+                    <legend>Contáctanos</legend>
+                    <div class="Items-Formulario">
+                        <div class="Formulario-DatosPersonales">
+                            <div class="Espacio-Formulario">
+                                <input type="text" name="fname" placeholder="Nombres*">
+                            </div>
+                            <div class="Apellidos">
+                                <div class="Espacio-Formulario">
+                                <input type="text" name="fapepat" placeholder="Apellido Paterno*">
+                            </div>
+                            <div class="Espacio-Formulario">
+                                <input type="text" name="fapemat" placeholder="Apellido Materno*">
+                            </div>
+                            </div>
+                            <div class="Espacio-Formulario">
+                                <input type="tel" placeholder="DNI">
+                            </div>
+                            <div class="Espacio-Formulario">
+                                <input type="tel" name="fphone" placeholder="Celular">
+                            </div>
+                            <div class="Espacio-Formulario">
+                                <input type="email" placeholder="Correo Electrónico">
+                            </div>
+                        </div>
+                        <div class="Formulario-EscribeAqui">
+                            <div class="Espacio-Formulario">
+                                <textarea type="text" name="fmessage" placeholder="Escribe tu mensaje aqui*"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Formulario-Checkbox">
+                        <input type="checkbox" name="fautorization">
+                        <label>Autorizo el tratamiento de mis datos personales.</label>
+                    </div>
+                    <input type="submit" name="fbuttonsend" value="Enviar">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <!--______________________________________PIE DE PAGINA______________________________________-->
+    <footer class="piepagina">
+        <div class="Contenedor-piepagina">
+            <div class="Opciones">
+                <h1>Sobre OjoCiudadano</h1>
+                <a href=""><p>¿Qué es OjoCiudadano?</p></a>
+                <a href=""><p>Politica de privacidad para el manejo de datos de OjoCiudadano</p></a>
+                <a href=""><p>Libro de reclamaciones</p></a>
+                <a href=""><p>Centro de ayuda</p></a>
+            </div>
+            <div class="RedesSociales">
+                <div class="Siguenos">
+                    <p>Siguenos:</p>
+                    <div class="Icons-RedesSociales">
+                        <a href="https://www.facebook.com/"><img height="35px" src="/Iconos/Icono-Facebook.png" class="Icon"></a>
+                        <a href="https://x.com/"><img height="35px" src="/Iconos/Icono-X.png" class="IconX"></a>
+                        <a href="https://www.youtube.com/"><img height="35px" src="/Iconos/Icono-YouTube.png" class="Icon"></a>
+                        <a href="https://www.instagram.com/"><img height="35px" src="/Iconos/Icono-Instagram.png" class="Icon"></a>
+                        <a href="https://www.linkedin.com/"><img height="35px" src="/Iconos/Icono-Linkedin.png" class="Icon"></a>
+                    </div>
+                </div>
+                <div class="App">
+                    <p>Instala nuestra app:</p>
+                    <div class="Icons-AppStores">
+                        <a href="https://play.google.com/"><img height="35px" src="/Iconos/Icono-GooglePlay.png"></a>
+                        <a href="https://www.apple.com/la/app-store/"><img height="35px" src="/Iconos/Icono-AppStore.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
