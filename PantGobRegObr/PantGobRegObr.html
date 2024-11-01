@@ -23,10 +23,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jaldi:wght@400;700&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/PantGobRegObr/StylesPantGobRegObr.css" />
 </head>
 <body>
-    <!--______________________________________ENCABEZADO______________________________________-->
+    <!--___________________________________________________TOPHEADER___________________________________________________-->
     <nav class="topheader">
         <div class="topheader-container">
             <a href="/index.html"><img width="200px" height="57px" src="/assets/LogotipoBlanco.png"></a>
@@ -38,8 +38,14 @@
                     </ul>
                 </li>
                 <li><a href="https://elpais.com/noticias/obras-publicas/">Noticias</a></li>
-                <li><a href="#Menj-Formu">Ayuda</a></li>
+                <li><a href="/index.html#Menj-Formu">Ayuda</a></li>
             </ul>
+            <div class="buscador">
+                <input type="text" placeholder="Buscar">
+                <div class="Ico-lupa">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
             <div class="Btn-IniciarSesion">
                 <button class="Btn-IconoMensaje">
                     <span>Iniciar Sesión</span>
@@ -52,84 +58,32 @@
             </div>
         </div>
     </nav>
+    <!--______________________________________OBRA GOBIERNO REGIONAL______________________________________-->
+    <section class="GobiernosRegionalesObras">
+        <div class="text">
+            <h1>Gobierno Regional de Cuzco (Gore Cuzco)</h1>
+            <p>Organizamos y conducimos la gestión pública regional, de acuerdo a sus competencias constitucionales exclusivas, compartidas y delegadas, en el marco de las políticas nacionales y sectoriales para contribuir al desarrollo integral y sostenible de la región.</p>
+        </div>
+        <div class="GobRegObr-container">
+            <div class="Opcion-GobRegObr">
+                <h2>Instalación de sistema de electrificación rural en nuevo Ccatun Rumi, san juan de la frontera y periferie de Pichari, distrito de Pichari, La Convención - Cusco</h2>
+                <p>FINALIZADO</p>
+                <div class="Btn-obrgobierno"><a href="/PantDetalles/PantDetalles.html"><button>Ver más</button></a></div>
+            </div>
 
-    <!--______________________________________SECCIONES______________________________________-->
-    <seccion class="PrimeraSeccion">
-        <div class="presentacion">
-            <h1>¡Bienvenido a OjoCiudadano!</h1>
-            <p>Esta es una plataforma digital diseñada para facilitar el acceso a la información referente sobre los proyectos que se están realizando en el Perú, como por ejemplo conocer el avance, presupuesto y cronograma.</p>
-            <div class="buscador">
-                <input type="text" placeholder="¿Qué buscaremos hoy?">
-                <botton class="Btn-Lupa">
-                    <i class="fas fa-search"></i>
-                </botton>
+            <div class="Opcion-GobRegObr">
+                <h2>Mejoramiento redes de alcantarillado área de influencia de los interceptores Huatanay y general de la ciudad del Cusco)</h2>
+                <p>FINALIZADO</p>
+                <div class="Btn-obrgobierno"><a href="/PantDetalles/PantDetalles.html"><button>Ver más</button></a></div>
+            </div>
+
+            <div class="Opcion-GobRegObr">
+                <h2>Mejoramiento y ampliación del gimnasio multideportivo en el barrio de Kanchispugio, distrito y provincia de Paucartambo - Cusco</h2>
+                <p>EN EJECUCIÓN</p>
+                <div class="Btn-obrgobierno"><a href="/PantDetalles/PantDetalles.html"><button>Ver más</button></a></div>
             </div>
         </div>
-    </seccion>
-
-    <section class="SegundaSeccion">
-        <div class="info-contenedor">
-            <h1>Estado peruano</h1>
-            <p>El Estado peruano es responsable de la planificación, ejecución y supervisión de obras públicas para mejorar la infraestructura del país. Su gestión busca garantizar el desarrollo económico y social, aunque enfrenta desafíos en transparencia y eficiencia en la ejecución de proyectos. La participación ciudadana es clave para asegurar un adecuado seguimiento de estas iniciativas.</p>
-        </div>
-        <div class="info-contenedor2">
-            <h1>Gobiernos regionales</h1>
-            <p>Se encargan de administrar los departamentos del Perú.  Entre sus funciones podemos encontrar que son los encargados de permitir a las municipalidades ejecutar proyectos de infraestructura y desarrollo local.</p>
-            <div class="Btn-obras"><a href="/PantGobReg/GobReg.html"><input type="button" class="btn-verobras" value="Ver obras"></a></div>
-        </div>
     </section>
-
-    <seccion class="TerceraSeccion" id="Menj-Formu">
-        <div class="mensaje">
-            <p>¡Se parte del cambio y únete a esta hermosa familia!</p>
-        </div>
-    </seccion>
-
-    <!--______________________________________FORMULARIO______________________________________-->
-    <section class="Formulario-OjoCiudadano">
-        <div class="Formulario">
-            <form name="Formulario" method="get" action="">
-                <fieldset id="form">
-                    <legend>Contáctanos</legend>
-                    <div class="Items-Formulario">
-                        <div class="Formulario-DatosPersonales">
-                            <div class="Espacio-Formulario">
-                                <input type="text" name="fname" placeholder="Nombres*">
-                            </div>
-                            <div class="Apellidos">
-                                <div class="Espacio-Formulario">
-                                <input type="text" name="fapepat" placeholder="Apellido Paterno*">
-                            </div>
-                            <div class="Espacio-Formulario">
-                                <input type="text" name="fapemat" placeholder="Apellido Materno*">
-                            </div>
-                            </div>
-                            <div class="Espacio-Formulario">
-                                <input type="text" placeholder="DNI">
-                            </div>
-                            <div class="Espacio-Formulario">
-                                <input type="text" name="fphone" placeholder="Celular">
-                            </div>
-                            <div class="Espacio-Formulario">
-                                <input type="email" placeholder="Correo Electrónico">
-                            </div>
-                        </div>
-                        <div class="Formulario-EscribeAqui">
-                            <div class="Espacio-Formulario">
-                                <textarea type="text" name="fmessage" placeholder="Escribe tu mensaje aqui*"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Formulario-Checkbox">
-                        <input type="checkbox" name="fautorization">
-                        <label>Autorizo el tratamiento de mis datos personales.</label>
-                    </div>
-                    <p><input type="submit" class="fbuttonsend" value="Enviar"></p>
-                </fieldset>
-            </form>
-        </div>
-    </section>
-
     <!--______________________________________PIE DE PAGINA______________________________________-->
     <footer class="piepagina">
         <div class="Contenedor-piepagina">
@@ -163,3 +117,6 @@
     </footer>
 </body>
 </html>
+
+
+
